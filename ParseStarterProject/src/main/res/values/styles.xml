@@ -1,0 +1,57 @@
+<!--
+  ~ Copyright (c) 2015-present, Parse, LLC.
+  ~ All rights reserved.
+  ~
+  ~ This source code is licensed under the BSD-style license found in the
+  ~ LICENSE file in the root directory of this source tree. An additional grant
+  ~ of patent rights can be found in the PATENTS file in the same directory.
+  -->
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ContextMenuButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ActionButtonStyleBase">
+        <item name="image_size">20dp</item>
+        <item name="show_animation">@anim/fab_roll_from_down</item>
+        <item name="hide_animation">@anim/fab_roll_to_down</item>
+        <item name="button_colorPressed">@color/green_primary</item>
+        <item name="shadow_color">@color/black_50</item>
+        <item name="shadow_radius">3dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">@dimen/button_size</item>
+        <item name="android:layout_height">@dimen/button_size</item>
+        <item name="android:layout_marginBottom">@dimen/fab_margin</item>
+    </style>
+    <style name="CategoryCircle">
+        <item name="android:layout_width">480dp</item>
+        <item name="android:layout_height">480dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">-220dp</item>
+    </style>
+
+    <style name="ActionButtonStyle" parent="ActionButtonStyleBase"></style>
+
+
+</resources>

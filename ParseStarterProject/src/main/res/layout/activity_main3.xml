@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parse.starter.com.happy.starter.Main3Activity">
+
+    <TextView
+        android:id="@+id/Selected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:layout_alignParentRight="true"
+        android:checked="false"
+        android:text="Select Your Language Using The Switches Below"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"/>
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/English"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:checked="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="sans-serif"
+        android:text="English"
+        android:textSize="16sp" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/Hindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentRight="true"
+        android:checked="false"
+        android:text="Hindi"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"/>
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/Telugu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentRight="true"
+        android:checked="false"
+        android:text="Telugu"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"/>
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/Tamil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentRight="true"
+        android:checked="false"
+        android:text="Tamil"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"/>
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/Kannada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentRight="true"
+        android:checked="false"
+        android:text="Kannada"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"/>
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/Malyalam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentRight="true"
+        android:checked="false"
+        android:text="Malyalam"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"/>
+
+</LinearLayout>

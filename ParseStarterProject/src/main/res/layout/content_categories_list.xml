@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.parse.starter.com.happy.starter.CategoriesList"
+    tools:showIn="@layout/activity_categories_list">
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="403dp"
+        android:layout_height="266dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:text="Happy is an  idea that I developed to kill boredom , by your location it gives memes that are famous in that region,can change your location or language using the action button below , like and share button will be introduced soon ."
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="392dp"
+        android:layout_height="419dp"
+        app:srcCompat="@drawable/compassion"
+        tools:layout_editor_absoluteY="157dp"
+        tools:layout_editor_absoluteX="-4dp" />
+
+</LinearLayout>

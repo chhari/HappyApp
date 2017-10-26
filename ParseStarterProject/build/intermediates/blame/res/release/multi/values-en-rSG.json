@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "C:\\Users\\haris\\Desktop\\yo\\final projext\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\Users\\haris\\.android\\build-cache\\ebbada23f97019fb29f0dec413bf357beceb765e\\output\\res\\values-en-rSG\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 103,
+                        "endOffset": 391
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\haris\\Desktop\\finalappmain\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\Users\\haris\\.android\\build-cache\\ebbada23f97019fb29f0dec413bf357beceb765e\\output\\res\\values-en-rSG\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 103,
+                        "endOffset": 391
+                    }
+                }
+            }
+        ]
+    }
+]
